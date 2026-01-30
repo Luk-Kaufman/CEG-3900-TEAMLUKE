@@ -1,4 +1,4 @@
-# Metadata Notes
+# Threat Intel Notes
 
 Threat intel is information that helps companies understand who might or will attack them, how they will, and how to stop them.
 
