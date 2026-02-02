@@ -9,3 +9,5 @@
     4. The Top-Level domain is .cloud
        - A domain name is read left to right, and in this case, .cloud is the right-most part, and cityinthe would be considered the second-level domain registered under the .cloud TLD
     5. The TLD used by cityinthe.cloud is managed by Aruba S.p.A
+ - Links
+   1. `https://lookup.icann.org/en/lookup`
