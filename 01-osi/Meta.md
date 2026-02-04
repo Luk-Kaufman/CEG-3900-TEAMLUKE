@@ -127,16 +127,28 @@ OR you can find online metadata viewers, such as:
 ## Questions:
 
 Here are some questions from the exercise:
-    1. When was the image created? Round to the nearest minute.
-        05/15/2015 02:14
-    2. What is the image size in pixels?
+1.    When was the image created? Round to the nearest minute.
+
+      05/15/2015 02:14
+  
+2.    What is the image size in pixels?
+
         1024x768
-    3. What is the make of the camera that took this picture?
+  
+4.    What is the make of the camera that took this picture?
+
         Apple
-    4. What is the model of the camera that took this picture?
+  
+6.    What is the model of the camera that took this picture?
+
         Apple iPhone 5 (really old)
-    5. What is the exposure time for the picture?
+
+8.    What is the exposure time for the picture?
+
         1/640
-    6. Where was the picture taken? Please use only positive numbers with four decimal places.
+  
+9.    Where was the picture taken? Please use only positive numbers with four decimal places.
+
         39 deg 52.500' N, 20 deg 0.867' E
+
 
