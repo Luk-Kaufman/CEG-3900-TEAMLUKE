@@ -19,7 +19,7 @@
     - iveghny ynxr = Virtual Lake
 - French
     - French Cypher or Vigenère cipher, shifts plaintext letters based on corresponding letters in a repeated keyword.
-    - For example, if you have a key of `qizkwcgqbs`, and you need to decode `Y ln`, you will need to find q on the left side of the table and find Y on the top side, and see where both meet up. In this case, they both meet up at I, so Q+Y=I, I+L=D, Z+N=0, I do.
+    - For example, if you have a key of `qizkwcgqbs`, and you need to decode `Y ln`, you will need to find q on the left side of the table and find Y on the top side, and see where both meet up. In this case, they both meet up at I, so Q+Y=I, I+L=D, Z+N=O, I do.
     - Y ln xkv lubj swlzqvkht, A vmzb pjk bbua we ddgs ILQ-GQYU-8026 = I do not fear computers, I fear the lack of them SKY-QIZK-8026
     - One thing you might notice is that our key is shorter than our phrase. In that case, after the 10th letter, you would start over with Q again. For us, our 10th letter is S. Q+S=C. 
 - Strings
