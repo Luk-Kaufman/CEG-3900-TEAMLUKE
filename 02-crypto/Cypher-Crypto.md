@@ -1,1 +1,25 @@
+## Cypher / crypto
+- Cyberchef local install?
+    - Going to Cyberchefs website and clicking the top left corner, but the website does not require local installation, but the option is given.
+    - While all the features are given on the website, some may prefer to install a standalone copy of Cyberchef, which is now yours, and you can run it where the network may be segmented, or there is little to no internet connection. 
+- Cyberchef notes
+    - Cyberchef allows you to analyze and decode/encode data
+    - Cyberchef has many encryption options, allowing you to encode/decode in many different ways
+    - Cyberchef is fully "server-free," meaning that no inputs or outputs are saved or sent anywhere.
+- quipquip notes
+    - Quipqiup is a web-based tool used to solve substitution ciphers.
+    - Quipqiup uses frequency analysis to decode encrypted text.
+    - Quipqiup runs in the browser and does not require installation.
+- Solve shift
+    - 
+- French
+- Strings
+- Bash
+- Fencing gyms.
+    - notes on how to use above tools to solve gyms
+    - notes on any command line tools that do the same
 
+- Links
+    - `https://quipqiup.com/`
+    - `https://gchq.github.io/CyberChef/`
+    - More advanced Cyberchef options `https://www.gaijin.at/en/infos/cyberchef`
