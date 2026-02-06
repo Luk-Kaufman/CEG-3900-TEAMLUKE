@@ -23,7 +23,11 @@
     - Y ln xkv lubj swlzqvkht, A vmzb pjk bbua we ddgs ILQ-GQYU-8026 = I do not fear computers, I fear the lack of them SKY-QIZK-8026
     - One thing you might notice is that our key is shorter than our phrase. In that case, after the 10th letter, you would start over with Q again. For us, our 10th letter is S. Q+S=C. 
 - Strings
-    - 
+    - String is a Linux program that can be used to find hidden messages in images.
+    - Combining string and grep will allow grep to look for binary data that converts to characters resembling the standard flag format.
+    - Most commonly, the command looks like this: `strings filename.jpg | grep SKY` - SKY here refers to what you're looking for.
+    - `string filename.jpg` = This scans the JPG file and extracts human-readable text hidden inside the binary data.
+    - `grep SKY` = Searches for words that match SKY.
 - Bash
 - Fencing
     - notes on how to use above tools to solve gyms
@@ -35,3 +39,4 @@
     - More advanced Cyberchef options `https://www.gaijin.at/en/infos/cyberchef`
     - This site allows you to do shifts of ROT-1 to ROT25 `https://rot13.com/`
     - Pretty good site that went into detail on Vigenere Cipher `https://www.omnicalculator.com/how-vigenere-cipher-works`
+    - String help page `https://man7.org/linux/man-pages/man1/strings.1.html`
