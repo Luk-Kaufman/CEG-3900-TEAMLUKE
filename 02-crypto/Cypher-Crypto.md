@@ -33,9 +33,13 @@
     - @Bash is an encryption method that is similar to shift, but in this case, the entire alphabet is reversed.
       1. `Plaintext:          ABCDE        FGHIJK     LMNOP     QRSTUV     WXYZ`
       2. `Ciphertext:         ZYXWV        UTSRQP     ONMLK     JIHGFE     DCBA`
-    - Tools like the ones mentioned before can be used. 
+    - Tools like the ones mentioned before can be used.
 - Fencing
-
+    - Fencing or rail fence cipher or zig-zag ciphers
+    - While some encryption methods can encrypt the wording entirely, fencing only rearranges the letters.
+    - For example, we have `THIS  IS  A  SECRET` and the Ciphertext `TATHSSEIIERSC`.
+    - This can be shown as THISISASECRET, in a zig-zag pattern on a 4 by 13 board.
+    - The reason why we got 4 is that it is the key to how many rows will be added, you can put any number. 
 - Links
     - `https://quipqiup.com/`
     - `https://gchq.github.io/CyberChef/`
@@ -43,3 +47,4 @@
     - This site allows you to do shifts of ROT-1 to ROT25 `https://rot13.com/`
     - Pretty good site that went into detail on Vigenere Cipher `https://www.omnicalculator.com/how-vigenere-cipher-works`
     - String help page `https://man7.org/linux/man-pages/man1/strings.1.html`
+    - Fencing Site `https://crypto.interactive-maths.com/rail-fence-cipher.html`
