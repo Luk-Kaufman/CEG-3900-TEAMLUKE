@@ -45,9 +45,11 @@
       - `m = 83 = S`
     - You must do this for all numbers in the ciphertext. 
 - Thunderbird
-
+  - Thunderbird is a free, open-source email client that focuses on security and user control.
+  - Thunderbird stores emails, folders, and attachments on your own devices. 
 - Links
-- `https://personal.utdallas.edu/~muratk/courses/crypto09s_files/modes.pdf`
-- `https://www.encryptionconsulting.com/education-center/what-is-rsa/`
-- RSA Calculator `https://www.tausquared.net/pages/ctf/rsa.html`
-- Prime Number Calculator `https://www.calculator.net/factor-calculator.html`
+  - `https://personal.utdallas.edu/~muratk/courses/crypto09s_files/modes.pdf`
+  - `https://www.encryptionconsulting.com/education-center/what-is-rsa/`
+  - RSA Calculator `https://www.tausquared.net/pages/ctf/rsa.html`
+  - Prime Number Calculator `https://www.calculator.net/factor-calculator.html`
+  - Thunderbird Download `https://www.thunderbird.net/en-US/thunderbird/all/`
