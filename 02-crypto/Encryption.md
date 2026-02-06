@@ -1,8 +1,14 @@
 ## Encryption (RSA / GPG)
 - Symmetric Encryption
   - 128-bit CBC
+    - Encrypt `openssl enc -aes-128-cbc -in tux-96.png -out tux_cbc.enc`
+    - Decrypt `openssl enc -aes-128-cbc -d -in tux_cbc.enc -out tux_cbc.png`
   - 128-bit ECB
-  - 128-bit OFB 
+    - Encrypt `openssl enc -aes-128-ecb -in tux-96.png -out tux_ecb.enc`
+    - Decrypt `openssl enc -aes-128-ecb -d -in tux_ecb.enc -out tux_ecb.png`
+  - 128-bit OFB
+    - Encrypt `openssl enc -aes-128-ofb -in tux-96.png -out tux_ofb.enc`
+    - Decrypt `openssl enc -aes-128-ofb -d -in tux_ofb.enc -out tux_ofb.png`
 - RSA
 - 
 - Thunderbird)
