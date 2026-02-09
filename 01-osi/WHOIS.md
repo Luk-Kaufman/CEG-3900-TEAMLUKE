@@ -1,6 +1,6 @@
 - WHOIS
   - more DNS, ICANN
-    1. The registrar of the domain is rdapConformance.
+    1. The registrar of the domain is `Super Privacy Service LTD c/o Dynadot`.
        - This can be done by going to a site like https://lookup.icann.org/en/lookup. 
     2. The domain was first registered on 2016-02-16.
        - This information can also be found on the site above.
