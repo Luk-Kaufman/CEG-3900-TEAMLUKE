@@ -10,7 +10,7 @@
         * to reverse the xxd use :%!xxd -r
   * `strings` gym for week 2
     * find out how to view the challenge flag via given the above `vim` tips to view the image as hex
-      * the command 'strings "FILE" | grep "Text to look for"' can be used to find flags
+      * the command `strings FILE | grep TEXT` can be used to find flags
 * side challenge on a linux only system:
     * cleanly format a USB drive
         * identify USB with `lsblk` and format partition using `sudo mkfs.ext4 /dev/sdb1` (double-check device name)
