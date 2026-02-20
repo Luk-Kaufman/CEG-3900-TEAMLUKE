@@ -30,5 +30,9 @@ A SQL History Database is a specialized database that tracks and logs historical
 ## Lab Questions
 
 1. bitcoin
-
-could not effectively answer the rest of these questions just yet
+2. $239.5
+3. coinbase
+4. Inbox - b1gbird@gmail.com - Gmail
+5. 5274cfba585a4b5681527a37f95c76340428916bb7480cef6c545f0a28dcd2d7
+6. 0.22616302
+7. 18z6bTFjxkXCmhfp8YBetR2wgmoVjXGJZz
