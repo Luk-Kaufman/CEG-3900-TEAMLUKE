@@ -5,3 +5,5 @@
 - Once in TLS, select the file under `(Pre)-Master-Secret log filename`
 - Once you've done this, you can now exit that page and, in the main page, right-click> Follow > TLS Stream
 - TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+- tomsvacations.com
+- SKY-LADN-1435
