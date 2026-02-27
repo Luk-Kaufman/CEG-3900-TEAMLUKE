@@ -64,3 +64,13 @@ Communication repeats this process
 - HTTP - Data sent in plain text
 - HTTPS is encrypted using SSL/TLS
 - HTTPS protects sensitive data such as passwords
+
+---
+
+## Lab Solutions
+
+1. wget
+2. nginx
+3. 192.168.1.140
+4. 174.143.213.184
+5. 966007c476e0c200fba8b28b250a6379 
