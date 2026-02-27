@@ -61,3 +61,16 @@ Network administrators can monitor FTP traffic to:
 - Track large file transfers.
 - Identify potential data exfiltration
 Tools like Wireshark can capture and analyze FTP packets
+
+---
+
+## Lab Solutions
+
+1. user1:cyberskyline
+2. FileZilla Server 0.9.53 beta
+3. user1:metropolis
+4. LIST
+5. 
+6. 
+7. 
+8. 
