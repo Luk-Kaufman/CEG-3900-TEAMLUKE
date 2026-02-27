@@ -70,7 +70,7 @@ Tools like Wireshark can capture and analyze FTP packets
 2. FileZilla Server 0.9.53 beta
 3. user1:metropolis
 4. LIST
-5. 
-6. 
-7. 
-8. 
+5. bank.cap
+6. compcodes.zip
+7. 28183 bytes
+8. compcodes.zip
