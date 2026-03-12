@@ -1,0 +1,181 @@
+# Git Repository Investigation Notes
+
+## Git Overview
+Analyzing a git project to understand how repositories store information and how hidden data (flags) can exist in commit history, branches, and files. Interpreting repository data using command line git tools or a web interface.
+
+Git → Version Control System → Tracks code changes and revision history  
+
+Common hosting services:
+- Github
+- Gitlab
+
+A git repository contains:
+- Files
+- Commit history
+- Branches
+- Metadata about authors and changes
+
+You can interact with repositories through:
+- Command Line Interface (CLI)
+- Web browser interface
+
+---
+
+## Cloning a Repository (CLI)
+
+Command used to download a repository locally:
+git clone [git repository url]
+
+
+This command:
+- Creates a new directory with the repository name
+- Downloads all files and commit history
+- Allows navigation and inspection locally
+
+---
+
+## Useful Git Commands
+git log
+
+Shows commit history on the current branch
+
+
+git log [branch name]
+
+Shows commit history for a specific branch
+
+
+git show [commit hash]
+
+Displays changes (diff) introduced in a commit
+
+
+git branch
+
+Lists available branches in the repository
+
+
+git checkout [branch name]
+
+Switches to another branch
+
+Git output is often paginated:
+- Up / Down arrows → scroll
+- Space bar → next page
+- `q` → quit pager
+
+---
+
+## Accessing a Git Repository Through the Web
+
+Original repository format:
+
+
+git@[hostname]:[username]/[repository name].git
+
+
+Breakdown:
+
+hostname → Server hosting the repository  
+username → Owner of the repository  
+repository name → Root directory of the project  
+
+To convert to a browser-accessible URL:
+
+
+https://[hostname]/[username]/[repository name]
+
+
+Opening this URL allows browsing the repository through a graphical interface.
+
+---
+
+## Repository Exploration Strategy
+
+Ways to locate hidden information in a repository:
+
+- Check commit history
+- Inspect commit diffs
+- Look through branches
+- Open repository files
+- Review commit messages
+
+Flags may appear in:
+- README files
+- Additional branches
+- Hidden commits
+- Commit messages
+- Text files
+
+---
+
+# Questions
+
+## What is the display name of the author of this git project?
+Run:
+
+git log
+
+Answer: Cyber Cyber
+## What is the short commit hash (first 8 characters) of the initial commit?
+Run:
+
+git log
+
+Scroll to the first commit and copy the first 8 characters of the commit hash.
+
+Answer: f9714edd
+---
+
+## What is flag #1?
+
+Open the README file:
+
+cat README.md
+
+Answer: SKY-HSNO-2303
+---
+
+## What is flag #2?
+
+git branch
+
+git checkout flag2
+
+ls
+
+
+cat flag2.txt
+
+Answer: SKY-OZNW-3730
+
+## What is flag #3?
+
+
+cat flag3.txt
+
+
+Answer: SKY-CCXL-4067
+
+## What is flag #4?
+
+git log
+
+
+Find the commit with message Added flag4.
+
+Then run:
+
+git show dfd1b3fc577268cfd35e73de8dc5fb8764d6f045
+
+Answer: SKY-IRRK-9672
+---
+
+## What is flag #5?
+
+Run:
+
+git log
+
+One of the commit messages directly indicates **flag 5**.
+Answer: SKY-DKIT-9801l
