@@ -54,3 +54,7 @@ Egov is important because it strives to:
 ---
 
 ## Lab Solutions
+
+**In order to complete the lab, you will have to open the website itself*
+
+ The flag you retrieve after logging in is SKY-XWTR-5733.
