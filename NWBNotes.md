@@ -4,3 +4,33 @@ Neverwinter Bank is a cybersecurity challenge in the game Neverwinter Nights tha
 - authentication bypasses
 - session manipulation
 - insecure client-server interactions
+
+---
+
+## Why Is The Challenge Important?
+
+The Neverwinter Bank challenge provides:
+- hands-on experience with real-world web vulnerabilities
+- aid in developing offensive security skills
+- reinforcement of understanding of how web applications function internally
+- bridging of gaps between theoretical knowledge and practical application
+- preparation for CTFs, penetration testing, and security careers
+- learning in a safe, legal environment
+
+---
+
+## Concepts
+
+### Authentication & Authorization
+- Login mechanisms (username/password validation)
+- Authentication bypass techniques (e.g., manipulating requests, cookies)
+- Role-based access control (e.g., user vs admin)
+
+### Session Management
+- Use of cookies to maintain sessions
+- Cookie tampering
+- Session hijacking and fixation concepts
+
+### Web Vulnerabilities
+- Injection flaws
+- Cross-site scripting
