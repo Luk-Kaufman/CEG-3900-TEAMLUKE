@@ -34,3 +34,25 @@ The Neverwinter Bank challenge provides:
 ### Web Vulnerabilities
 - Injection flaws
 - Cross-site scripting
+- Insecure Direct Object References (IDOR)
+- Misconfigured authentication logic
+
+### Tools & Techniques
+- Browser DevTools (inspect, modify requests/responses)
+- Intercepting proxies (e.g., Burp Suite)
+- Manual HTTP request crafting
+- Payload testing and fuzzing
+
+### HTTP Fundamentals
+- Understanding HTTP requests and responses
+- Headers, methods (GET, POST), and status codes
+- How data flows between client and server
+
+### Client-Side vs Server-Side
+- Difference between client-side controls (JavaScript) and server-side validation
+- Why client-side changes (like modifying cookies) may not work
+- Importance of server-side enforcement
+
+---
+
+## Lab Solutions
