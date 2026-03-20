@@ -56,3 +56,8 @@ The Neverwinter Bank challenge provides:
 ---
 
 ## Lab Solutions
+
+1. What is the leaked file path?
+- /dev/rel.js
+2. What is the hidden flag?
+- SKY-EDBV-1492
