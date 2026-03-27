@@ -62,3 +62,9 @@ Ophcrack is a tool specifically known for cracking Windows password hashes using
 - This is useful in defense thinking because it shows why disabled LM hashing and strong password policies significantly increase security.
 
 ---
+## Lab Solutions
+
+### PDF Lab Solutions
+
+1. keanureeves2008
+2. SKY-KANU-5902
