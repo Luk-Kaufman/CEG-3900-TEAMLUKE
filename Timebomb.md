@@ -58,3 +58,7 @@ Because it can stay asleep for a long time, it is very sneaky during normal test
 ---
 
 ## Lab Solutions
+
+1. The code is written in Java
+2. code 10
+3. July 17, 2022 1:12 pm
