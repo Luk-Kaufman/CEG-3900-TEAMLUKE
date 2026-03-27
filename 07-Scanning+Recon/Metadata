@@ -1,0 +1,108 @@
+# AWS Instance Metadata Notes
+
+## Overview
+AWS EC2 instances include an **Instance Metadata Service** that runs as a basic HTTP server.  
+It exposes information about the virtual machine such as configuration, network data, and IAM roles.
+
+Requests follow this format:
+
+
+http://[hostname]:[port]/latest/meta-data/[endpoint]
+
+
+Documentation:
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instancedata-data-categories.html
+
+---
+
+## Service Discovery
+
+Opening the provided server in a browser returns:
+
+latest
+
+Appending `/latest` returns:
+
+
+dynamic
+meta-data
+user-data
+
+
+This indicates the server is an **AWS metadata service**.
+
+Example:
+
+
+http://[hostname]:[port]/latest/meta-data
+
+
+This lists available metadata endpoints.
+
+---
+
+## Retrieving Metadata
+
+Metadata can be accessed with:
+
+**Browser**
+
+Enter the URL directly.
+
+**curl**
+
+
+curl http://[hostname]:[port]/latest/meta-data/
+
+
+---
+
+## Enumeration Strategy
+
+1. Access `/latest`
+2. Explore `/latest/meta-data`
+3. Enumerate all endpoints
+4. Query each endpoint
+5. Follow nested directories if shown
+
+---
+
+# Questions
+
+## What availability zone is this instance hosted in?
+
+Access: http://metadata.services.cityinthe.cloud:1338/latest/meta-data/placement/availability-zone via the search bar
+
+Answer: us-west-2a
+---
+
+## What is the security credentials role named?
+
+Access: metadata.services.cityinthe.cloud:1338/latest/meta-data/iam/security-credentials
+
+Answer: liber8-role
+
+---
+
+## What is the instance type being used?
+
+Access: metadata.services.cityinthe.cloud:1338/latest/meta-data/instance-type
+
+Answer: c6g.16xlarge
+
+---
+
+## What is the operating system name and version number?
+
+Access:http://metadata.services.cityinthe.cloud:1338/latest/meta-data/ami-id
+
+use https://cloud-images.ubuntu.com/locator/ec2/ to find info
+
+Answer: Ubuntu 18.04 LTS
+
+---
+
+## What is the flag?
+Acsess: metadata.services.cityinthe.cloud:1338/latest/meta-data/network/interfaces/macs/0e:49:61:0f:c3:11/vpc-ipv4-cidr-blocks
+
+Answer: SKY-AWSM-1570
