@@ -121,3 +121,32 @@ This is because Telnet sends each keystroke individually.
 
 ---
 
+## Lab Solution
+
+1. 
+Use Wire shark to read packets
+
+Follow TCP Stream on TELNET Protocol
+
+This will reveal Username and password
+
+Answer: test
+
+2.
+Answer: capture
+
+3.
+next is the command listed, which is ...
+Answer: uname -a
+
+4.
+Find the year
+Answer: 2011
+
+5. 
+uname gives hostname
+Answer: cm4116
+
+6.
+uname also gives cpu Architecture
+Answer: armv4tl
